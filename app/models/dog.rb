@@ -8,6 +8,7 @@ class Model
     @name = name
     @breed = breed
     @age = age
+    self.save
 
   def save
     @@all << self
